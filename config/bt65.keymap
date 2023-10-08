@@ -31,10 +31,10 @@
 		raise {
 			bindings = <
 				&ext_power EP_TOG &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp  F8   &kp  F9   &kp F10  &kp F11 &kp F12 &bl BL_TOG &rgb_ug RGB_TOG
-				&kp TILDE &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &kp INS &trans &kp PSCRN &kp RGB_SPD &kp RGB_SPI &reset &rgb_ug RGB_EFF
+				&kp TILDE &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &kp INS &trans &kp PSCRN &rgb_ug RGB_SPD &rgb_ug RGB_SPI &reset &rgb_ug RGB_EFF
 				&trans    &kp C_BRI_DN &kp C_BRI_UP &trans &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &bootloader &rgb_ug RGB_EFR
-				&kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans &trans &trans &trans &trans &kp END &kp PG_DN  &kp C_NEXT &trans &bl RGB_HUI
-				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &trans   &trans &bt BT_CLR &trans &bl RGB_HUD
+				&kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans &trans &trans &trans &trans &kp END &kp PG_DN  &kp C_NEXT &trans &rgb_ug RGB_HUI
+				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &trans   &trans &bt BT_CLR &trans &rgb_ug RGB_HUD
 			>;
 			sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP>;
 		};
